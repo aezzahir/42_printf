@@ -1,10 +1,21 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: aezzahir <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/12/02 11:40:48 by aezzahir          #+#    #+#             */
+/*   Updated: 2023/12/02 11:41:33 by aezzahir         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdio.h>
 #include "ft_printf.h"
 
-
-int main()
+int	main(void)
 {
-    printf("-->%d\n",ft_printf("gg%+ ng#m5kg"));
-    printf("-->%d\n",printf("gg%+ ng#m5kg"));
-    return (0);
+	printf("-->%d\n", ft_printf("%%"));
+	printf("-->%d\n", printf("%%"));
+	return (0);
 }
